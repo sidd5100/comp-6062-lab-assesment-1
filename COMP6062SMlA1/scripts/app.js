@@ -8,8 +8,8 @@ const result = `${studentFullName} - ${studentNumber}`;
 
 console.log(result);
 
-let headerContent = document.querySelector(".h1");
+let headerContent = document.querySelector("h1");
 
 headerContent.innerHTML = result;
 
-h1.classlist.add("headingPrimary");
+headerContent.classlist.add("headingPrimary");
